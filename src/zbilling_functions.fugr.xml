@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<abapGit version="v1.0.0" serializer="LCL_OBJECT_FUGR" serializer_version="v1.0.0">
+ <asx:abap xmlns:asx="http://www.sap.com/abapxml" version="1.0">
+  <asx:values>
+   <AREAT>Billing Functions</AREAT>
+   <INCLUDES>
+    <SOBJ_NAME>LZBILLING_FUNCTIONSTOP</SOBJ_NAME>
+    <SOBJ_NAME>SAPLZBILLING_FUNCTIONS</SOBJ_NAME>
+   </INCLUDES>
+   <FUNCTIONS>
+    <item>
+     <FUNCNAME>ZBILLIT</FUNCNAME>
+     <SHORT_TEXT>Billing of Meterdata</SHORT_TEXT>
+     <IMPORT>
+      <RSIMP>
+       <PARAMETER>BILLDATE</PARAMETER>
+       <TYP>DATS</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>USAGE</PARAMETER>
+       <TYP>INT4</TYP>
+      </RSIMP>
+      <RSIMP>
+       <PARAMETER>CONTRACT</PARAMETER>
+       <TYP>CHAR20</TYP>
+      </RSIMP>
+     </IMPORT>
+     <DOCUMENTATION>
+      <RSFDO>
+       <PARAMETER>BILLDATE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>USAGE</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+      <RSFDO>
+       <PARAMETER>CONTRACT</PARAMETER>
+       <KIND>P</KIND>
+      </RSFDO>
+     </DOCUMENTATION>
+    </item>
+   </FUNCTIONS>
+  </asx:values>
+ </asx:abap>
+</abapGit>
