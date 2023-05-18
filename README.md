@@ -4,6 +4,9 @@ ABAP Meterdata-Manager is a legacy code refactoring kata based in the utilities 
 ## What is this about?
 You just started a new job at a local utility company. A colleague had his last day at work yesterday. He quit because he won the lottery. He developed the "meterdata manager" for about 25 years. It's a very important piece of software because... well, you actually dont really understand what the collegaue told you about the code. Some stuff about "billing", "meter readings", "overflow"  etc. You have a look at the code and it looks awful. But you know there are new feature request from the PO, so you need to improve the code. Let's get started.
 
+## Give a Star! :star:
+If you like or are using this project please give it a star. Thanks!
+
 ## How to use this kata
 You can copy and paste the sourccode into your system or simply clone this repository with [ABAPGit](https://abapgit.org/).
 There are a few important objects:
